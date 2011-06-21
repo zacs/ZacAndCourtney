@@ -1,0 +1,162 @@
+*, html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #F5F0D0;
+	color:#220059;
+	font-family:Georgia,Helvetica,Arial,Verdana,Sans-serif;
+    font-size: 14px;
+	padding: 0px;
+}
+
+a {
+	color: #00AEFF;
+	text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	color: #fff;
+	font-family: Georgia, Trebuchet MS, Times New Roman, serif;
+	font-size: 52px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+#topbar {
+	height: 80px;
+	clear: both;
+    padding-top: 10px;
+}
+
+#topbanner {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#title {
+	display: block;
+	float: left;
+}
+
+#menus {
+	display: block;
+	float: right;
+	padding-top: 30px;
+}
+
+#bottombar {
+	height: 17px;
+	clear: both;
+	background: #1F1F26;
+    color: #93b1bf;
+	text-align: center;
+	font-size: 11px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+
+#bottombar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#mainbox {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	clear:both;
+}
+
+p {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.row {
+	clear:both;
+	background: #bcbcbc;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	font-family: Georgia, Trebuchet MS, Times New Roman, serif;
+}
+
+.row_nostream {
+	clear:both;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	font-family: Georgia, Trebuchet MS, Times New Roman, serif;
+}
+
+.spine {
+	font-size: 32px;
+	text-align: center;
+	display: block;
+	float:left;
+	width: 75px;
+	/*padding-left: 10px;*/
+	padding-right:10px;
+}
+
+.title {
+	font-size: 24px;
+	padding-top: 10px;
+	display: block;
+	overflow: hidden;
+}
+
+#main_eclipse .title {
+	padding-left: 25px;
+}
+
+#nonstream {
+	background: #aaa;
+	padding: 6px;
+}
+
+#nonstream input {
+	margin-right: 8px;
+}
+
+#social {
+	float: left;
+	padding-top: 5px;
+}
+
+#crit_dvd {
+	float: right;
+}
+
+#eclipse_dvd {
+	float: right;
+}
+
+#crit_ld {
+	float: right;
+}
+
+.tab {
+	padding: 7px;
+	margin-left: 2px;
+}
+
+.tab_active {
+	background: #b1b1b1;
+	border-bottom: 1px solid #b1b1b1;
+}
+
+.tab_inactive {
+	background: #999;
+	border-bottom: 1px solid #787878;
+}
