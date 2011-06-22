@@ -4,6 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
 	<title>Zac &amp; Courtney Getting Married &mdash; May 27, 2012</title> 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+	<script type="text/javascript" src="http://github.com/tobia/CrossSlide/raw/master/jquery.cross-slide.min.js"></script> 
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8"> 
 </head> 
 <body> 
@@ -18,7 +19,7 @@
 						<li><a href="#">Welcome</a></li>
 						<li><a href="#">Our Story</a></li>
 						<li><a href="#">Photos</a></li>
-						<li><a href="#">Date</a></li>
+						<li><a href="#">Invitation</a></li>
 						<li><a href="#">Directions</a></li>
 						<li><a href="#">Registry</a></li>
 						<li><a href="#">RSVP</a></li>
@@ -27,16 +28,53 @@
             </div> 
 	</div> 
 	<div id="mainbox"> 
-	    
-	</div> 
+	    <div id="photos">
+			<div id="left_of_frame"> </div>
+			<div id="right_of_frame"> </div>
+			<div id="frame"> </div>
+	    </div>
+		<div id="welcome" class="box">
+			<div class="return"><span class="big">&uarr;</span> Return to top</div>
+			content
+		</div>
+		<div id="ourstory" class="box">
+			<div class="return">&uarr; Return to top</div>
+			content
+		</div>
+		<div id="gallery" class="box">
+			<div class="return">&uarr; Return to top</div>
+			content
+		</div>
+		<div id="invitation" class="box">
+			<div class="return">&uarr; Return to top</div>
+			content
+		</div>
+		<div id="directions" class="box">
+			<div class="return">&uarr; Return to top</div>
+			content
+		</div>
+		<div id="registry" class="box">
+			<div class="return">&uarr; Return to top</div>
+			content
+		</div>
+		<div id="rsvp" class="box">
+			<div class="return">&uarr; Return to top</div>
+			content
+		</div>
+	</div>
 	<div id="bottombar"> 
-	    Designed by <a href="http://zac.schellhardt.net/">Zac</a>, obviously.
+	    Designed by <a href="http://zac.schellhardt.net/">Zac</a>, a.k.a. the groom. Developed using DryDrop, Google App Engine, jQuery, CrossSlide, Mongo, rest-mongo, and TextMate.
 	</div> 
-<script type="text/javascript" src="http://include.reinvigorate.net/re_.js"></script> 
-<script type="text/javascript"> 
-try {
-reinvigorate.track("9hv73-2ag32ciu16");
-} catch(err) {}
-</script> 
+	<script type="text/javascript" charset="utf-8">
+		$('#frame').crossSlide({
+		  speed: 45,
+		  fade: 1
+		}, [
+		  { src: 'img/photos/photo.jpeg', dir: 'up'   },
+		  { src: 'img/photos/photo-1.jpeg',   dir: 'down' },
+		  { src: 'img/photos/photo-2.jpeg',  dir: 'up'   },
+		  { src: 'img/photos/photo-3.jpeg', dir: 'down' }
+		]);
+	</script>
 </body> 
 </html>
