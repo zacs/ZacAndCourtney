@@ -80,7 +80,11 @@ h1 {
 .box {
 	margin-bottom: 90px;
 	margin-top: 50px;
-	clear: both;
+}
+
+.box_content {
+	width: 860px;
+	float: left;
 }
 
 .return {
