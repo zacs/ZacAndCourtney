@@ -33,11 +33,17 @@ h1 {
 
 h2 {
 	color: #93b1bf;
-	font-family: Georgia, Trebuchet MS, Times New Roman, serif;
+	font-family: 'Alice', Georgia, Trebuchet MS, Times New Roman, serif;
 	font-size: 22px;
+	font-weight: normal;
 	margin-bottom: 15px;
 	width: 100%;
 	text-align: center;
+}
+
+#countdowndiv {
+	background: url(img/countdown_bg.png) no-repeat 550px 0px;
+	height: 70px;
 }
 
 #topbar {
@@ -216,7 +222,10 @@ p {
 	float: right;
 	width: 390px;
 	margin-top: 180px;
-	background: #f00;
+}
+
+#inviteright img {
+	border: 1px solid #1f1f26;
 }
 
 #invitecontent {
