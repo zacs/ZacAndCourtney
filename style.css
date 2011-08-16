@@ -154,7 +154,7 @@ h2 {
 
 .box {
 	margin-bottom: 90px;
-	margin-top: 650px;
+	margin-top: 150px;
 	text-align: center;
 }
 
@@ -202,6 +202,42 @@ p {
 	margin-top: 10px;
 }
 
+#inviteleft {
+	float: left;
+	width: 440px;
+}
+
+#inviteright {
+	float: right;
+	width: 390px;
+	margin-top: 180px;
+	background: #f00;
+}
+
+#invitecontent {
+	background: url(img/invite_bg.png) repeat-y;
+	width: 440px;
+	padding-bottom: 30px;
+}
+
+#invitecontent p {
+	width: 380px;
+	margin: 0;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 38px;
+	font-family: 'Tangerine', cursive;
+	color: #93b1bf;
+	text-align: center;
+}
+
+#invitecontent p a {
+	text-decoration: none;
+	font-weight: normal;
+	border-bottom: 1px dashed #93b1bf;
+}
+
 #frame {
 	width: 700px;
 	height: 250px;
@@ -211,14 +247,14 @@ p {
 
 #left_of_frame {
 	float: left;
-	background: url('img/frame_left_bg.png') no-repeat left 10px;
+	background: url(img/frame_left_bg.png) no-repeat left 10px;
 	height: 250px;
 	width: 79px;
 }
 
 #right_of_frame {
 	float: right;
-	background: url('img/frame_right_bg.png') no-repeat right 10px;
+	background: url(img/frame_right_bg.png) no-repeat right 10px;
 	height: 250px;
 	width: 79px;
 }
