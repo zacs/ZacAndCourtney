@@ -4,23 +4,24 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
 	<title>Zac &amp; Courtney Getting Married &mdash; May 27, 2012</title> 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
-	<script type="text/javascript" src="http://github.com/tobia/CrossSlide/raw/master/jquery.cross-slide.min.js"></script> 
+	<script type="text/javascript" src="js/jquery.cross-slide.min.js"></script>
+	<script type="text/javascript" src="js/slides.min.jquery.js"></script>
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8"> 
 </head> 
 <body> 
 	<div id="topbar"> 
             <div id="topbanner">
-				<div id="title"> 
+				<div id="title"><a name="top"></a>
 					<img src="img/title.png" alt="Zac &amp; Courtney" title="Zac &amp; Courtney" /> 
 				</div>
 				<div id="menus">
 					<ul>
-						<li><a href="#">Our Story</a></li>
-						<li><a href="#">Photos</a></li>
-						<li><a href="#">Invitation</a></li>
-						<li><a href="#">Directions</a></li>
-						<li><a href="#">Accommodations</a></li>
-						<li><a href="#">Registry</a></li>
+						<li><a href="#story">Our Story</a></li>
+						<li><a href="#gallery">Photos</a></li>
+						<li><a href="#invitation">Invitation</a></li>
+						<li><a href="#directions">Directions</a></li>
+						<li><a href="#accommodations">Accommodations</a></li>
+						<li><a href="#registry">Registry</a></li>
 						<!-- <li><a href="#">RSVP</a></li> -->
 					</ul>
 				</div>
@@ -34,50 +35,58 @@
 			<div style="clear:both;"> </div>
 	    </div>
 		<div style="clear:both;"> </div>
-		<div id="welcome" class="box">
-			<div class="return"><span class="big">&uarr;</span> Return to top</div>
+		<h2 id="countdown"> </h2>
+		<div style="clear:both;"> </div>
+		<div id="ourstory" class="box"><a name="story">&nbsp; </a>
+			<div class="return"><a href="#top"><span class="big">&uarr;</span> Return to top</a></div>
+			<div class="box_content">
+				<h1>Our Story</h1>
+				<p class="leftp"><span class="big">Z</span>ac was born in the Washington DC area, and moved around the Delmar area until he was four, which is when he moved to the dirty south (also known as Georgia). From that young age, Zac has been interested in the outdoors and technology, and started playing basketball with his dad when he was only 5. It isn't known by many, but Zac has actually summitted the 7 highest peaks in the world, while wearing nothing but a freshly pressed suit. Class has always been important to him.</p>
+				<p class="rightp"><span class="big">C</span>ourtney was born and raised in Chicago, and thus, has lots of experience with losing sports teams. Unfortunately this also seems to extend to every city she moves to (she has even run the NBA out of Seattle all-up). Courtney has always loved to dance, and has been performing with the Seattle Ballet under the pseudonym <em>Barbarella Ljornsbudom</em>. Please, keep her secret for her.</p>
+				<div style="clear:both;"> </div>
+				<p><span class="big">Z</span>ac and Courtney met at the University of Illinois in 2006. They were brought together by the fact that they are both incredibly passionate individuals, who care about nothing but providing for others. Either that, or they both joined a community service fraternity to put it on their resumes. You should be able to guess which. </p>
+			</div>
+			<div style="clear:both;"> </div>
+		</div>
+		<div style="clear:both;"> </div>
+		<div id="gallery" class="box"><a name="gallery">&nbsp; </a>
+			<div class="return"><a href="#top"><span class="big">&uarr;</span> Return to top</a></div>
+			<div class="box_content">
+				<div id="slides">
+					<!-- <div id="prevbutton"><a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a></div>
+					<div id="nextbutton"><a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a></div> -->
+					<div class="slides_container">
+						<div><img src="img/photos/slide1.jpeg"></div>
+						<div><img src="img/photos/slide2.jpeg"></div>
+						<div><img src="img/photos/slide3.jpeg"></div>
+						<div><img src="img/photos/slide4.jpeg"></div>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both;"> </div>
+		</div>
+		<div style="clear:both;"> </div>
+		<div id="invitation" class="box"><a name="invitation">&nbsp; </a>
+			<div class="return"><a href="#top"><span class="big">&uarr;</span> Return to top</a></div>
 			<div class="box_content">
 				foo
 			</div>
 			<div style="clear:both;"> </div>
 		</div>
 		<div style="clear:both;"> </div>
-		<div id="ourstory" class="box">
-			<div class="return"><span class="big">&uarr;</span> Return to top</div>
+		<div id="directions" class="box"><a name="directions">&nbsp; </a>
+			<div class="return"><a href="#top"><span class="big">&uarr;</span> Return to top</a></div>
 			<div class="box_content">
 				foo
 			</div>
 			<div style="clear:both;"> </div>
 		</div>
 		<div style="clear:both;"> </div>
-		<div id="gallery" class="box">
-			<div class="return"><span class="big">&uarr;</span> Return to top</div>
+		<div id="registry" class="box"><a name="registry">&nbsp; </a>
+			<div class="return"><a href="#top"><span class="big">&uarr;</span> Return to top</a></div>
 			<div class="box_content">
-				fpoo
-			</div>
-			<div style="clear:both;"> </div>
-		</div>
-		<div style="clear:both;"> </div>
-		<div id="invitation" class="box">
-			<div class="return"><span class="big">&uarr;</span> Return to top</div>
-			<div class="box_content">
-				foo
-			</div>
-			<div style="clear:both;"> </div>
-		</div>
-		<div style="clear:both;"> </div>
-		<div id="directions" class="box">
-			<div class="return"><span class="big">&uarr;</span> Return to top</div>
-			<div class="box_content">
-				foo
-			</div>
-			<div style="clear:both;"> </div>
-		</div>
-		<div style="clear:both;"> </div>
-		<div id="registry" class="box">
-			<div class="return"><span class="big">&uarr;</span> Return to top</div>
-			<div class="box_content">
-				foo
+				<h1>Our Registry</h1>
+				<p>We have not yet succumbed to the materialistic (not to mention narcissistic!) practice of telling people what to buy for us. Don't worry, we will soon be getting a laser gun and tagging everything we fancy at Bed, Bath, and Beyond.</p>
 			</div>
 			<div style="clear:both;"> </div>
 		</div>
@@ -101,8 +110,48 @@
 		  { src: 'img/photos/photo.jpeg', dir: 'up'   },
 		  { src: 'img/photos/photo-1.jpeg',   dir: 'down' },
 		  { src: 'img/photos/photo-2.jpeg',  dir: 'up'   },
-		  { src: 'img/photos/photo-3.jpeg', dir: 'down' }
+		  { src: 'img/photos/photo-6.jpeg', dir: 'down' }
 		]);
+	</script>
+	<script>
+	$(function(){
+				$('#slides').slides({
+					preload: true,
+					play: 3000,
+					pause: 2500,
+					hoverPause: true
+				});
+			});
+	</script>
+	<script type="text/javascript" charset="utf-8">
+		var end = new Date('27 May 2012 15:00:00'); // set expiry date and time..
+		var _second = 1000;
+		var _minute = _second * 60;
+		var _hour = _minute * 60;
+		var _day = _hour *24
+		var timer;
+		function showRemaining()
+		{
+		    var now = new Date();
+		    var distance = end - now;
+		    if (distance < 0 ) {
+		       // handle expiry here..
+		       clearInterval( timer ); // stop the timer from continuing ..
+		       alert('Expired'); // alert a message that the timer has expired..
+		       return; // break out of the function so that we do not update the counters with negative values..
+		    }
+		    var days = Math.floor(distance / _day);
+		    var hours = Math.floor( (distance % _day ) / _hour );
+		    var minutes = Math.floor( (distance % _hour) / _minute );
+		    var seconds = Math.floor( (distance % _minute) / _second );
+		    if (days > 0) {
+				document.getElementById('countdown').innerHTML = days + ' days until the wedding!';
+			}
+			else {if (hours > 0) {
+				document.getElementById('countdown').innerHTML = hours+ 'left until the wedding!';
+			}}
+		}
+		timer = setInterval(showRemaining, 1000);
 	</script>
 </body> 
 </html>

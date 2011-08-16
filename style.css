@@ -22,11 +22,22 @@ a:hover {
 }
 
 h1 {
-	color: #fff;
+	color: #220059;
 	font-family: Georgia, Trebuchet MS, Times New Roman, serif;
-	font-size: 52px;
+	font-size: 32px;
 	margin-bottom: 15px;
 	margin-top: 15px;
+	width: 100%;
+	text-align: left;
+}	
+
+h2 {
+	color: #93b1bf;
+	font-family: Georgia, Trebuchet MS, Times New Roman, serif;
+	font-size: 22px;
+	margin-bottom: 15px;
+	width: 100%;
+	text-align: center;
 }
 
 #topbar {
@@ -81,16 +92,90 @@ h1 {
 
 #photos {
 	margin-top: 30px;
-	margin-bottom: 90px;
+	margin-bottom: 20px;
+}
+
+.slides_container {
+    width:860px;
+    overflow:hidden;
+    position:relative;
+    display:none;
+	border: 1px solid #220059;
+}
+
+.slides_container div.slide {
+    width:860px;
+    height:520px;
+    display:block;
+}
+
+.slides_container div {
+  width:860px;
+  height:520px;
+  display:block;
+}
+
+.pagination {
+    margin:26px auto 0;
+    width: 100px;
+}
+
+.pagination li {
+    float:left;
+    margin:0 1px;
+    list-style:none;
+}
+
+.pagination li a {
+    display:block;
+    width:12px;
+    height:0;
+    padding-top:12px;
+    background-position:0 0;
+    float:left;
+    overflow:hidden;
+	border: 1px solid #220059;
+}
+
+.pagination li.current a {
+    background-position:0 -12px;
+	background: #220059;
+}
+
+#prevbutton {
+	float: left;
+	padding-top: 200px;
+}
+
+#nextbutton {
+	float: right;
+	padding-top: 200px;
 }
 
 .box {
 	margin-bottom: 90px;
-	margin-top: 50px;
+	margin-top: 650px;
+	text-align: center;
+}
+
+.box p {
+	width: 100%;
+	text-align: left;
+}
+
+.box p.leftp {
+	float: left;
+	width: 410px;
+}
+
+.box p.rightp {
+	float: right;
+	width: 410px;
 }
 
 .box_content {
 	width: 860px;
+	margin-top: 40px;
 	float: left;
 }
 
@@ -98,9 +183,19 @@ h1 {
 	float: right;
 }
 
+.return a {
+	text-decoration: none;
+	font-weight: normal;
+	color: #220059;
+}
+
 .return .big {
 	font-size: 22px;
-}
+}	
+
+p .big {
+		font-size: 22px;
+	}
 
 p {
 	margin-bottom: 10px;
