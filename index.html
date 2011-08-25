@@ -46,17 +46,17 @@
 				<div id="inviteleft">
 					<img src="img/invite_top.png" />
 					<div id="invitecontent">
-						<p>Sunday, <a href="#">May 27</a>, 2012</p>
-						<p><a href="#">Salvatore's</a></p>
-						<p><a href="#">Chicago</a>, Illinois</p>
+						<p>Sunday, <a href="http://en.wikipedia.org/wiki/May_27">May 27</a>, 2012</p>
+						<p><a href="#directions">Salvatore's</a></p>
+						<p><a href="http://en.wikipedia.org/wiki/Chicago">Chicago</a>, Illinois</p>
 						<p>Ceremony at 5 P.M.</p>
 						<p>Reception at 7 P.M.</p>
 					</div>
 				</div>
-				<div id="inviteright">
+				<!-- <div id="inviteright">
 					<img src="img/invite_data_salvatores.jpg" />
 				</div>
-				<div style="clear:both;"> </div>
+				<div style="clear:both;"> </div> -->
 			</div>
 			<div style="clear:both;"> </div>
 		</div>
@@ -93,16 +93,18 @@
 		<div id="directions" class="box"><a name="directions">&nbsp; </a>
 			<div class="return"><a href="#top"><span class="big">&uarr;</span> Return to top</a></div>
 			<div class="box_content">
-				<div style="clear:both;"> </div>
+				
 				<p class="leftp">
-					<!-- <strong>From I-64:</strong>
-					<ol>
-						<li>Do this</li>
-						<li>Then do this</li>
-						<li>You will then do this</li>
-						<li>Also this</li>
-						<li>And finally: this</li>
-					</ol> -->
+					<strong>From I-64:</strong>
+				</p>
+				<div class="leftdiv"><ol>
+					<li>Do this</li>
+					<li>Then do this</li>
+					<li>You will then do this</li>
+					<li>Also this</li>
+					<li>And finally: this</li>
+				</ol></div>
+				<p class="leftp">
 					Oh hey fellas
 				</p>
 				<p class="rightp"><img src="img/map.png" /></p>
@@ -112,7 +114,8 @@
 		<div style="clear:both;"> </div><div id="accommodations" class="box"><a name="accommodations">&nbsp; </a>
 			<div class="return"><a href="#top"><span class="big">&uarr;</span> Return to top</a></div>
 			<div class="box_content">
-				foo
+				<p class="leftp"><img src="img/hotel_belden.jpg" /><br /><span class="big">Belden-Stratford Hotel</span><br />Walking distance to ceremony and reception.<br /><br /><strong>Address:</strong> <a href="http://g.co/maps/k2xe">2300 Lincoln Park West, Chicago, IL 60614</a><br /><strong>Phone:</strong> (773) 281-2900<br /><strong>Booking:</strong> <br /><br />The charming Belden-Stratford is a historic Chicago landmark building nestled in Lincoln Park, overlooking the lake and across from the zoo and conservatory. Lincoln Park is famous for boutique shopping, excellent restaurants and the best in local theatre and music and only moments from Michigan Avenue and downtown. A gold and alabaster chandelier. A dazzling hand-painted sky motif ceiling. A grand piano. Beautiful hand-woven tapestries. All perfectly accented with Empire period furnishings.</p>
+				<p class="rightp"><img src="img/hotel_sofitel.jpg" /><br /><span class="big">Sofitel Chicago Water Tower</span><br />Closer to downtown, and a cab ride away from Salvatore's.<br /><br /><strong>Address:</strong> <a href="http://g.co/maps/ze9g">20 East Chestnut St, Chicago, IL 60611</a><br /><strong>Phone:</strong> (312) 324-4000<br /><strong>Booking:</strong> Contact <a href="mailto:Joanna.Scianna@sofitel.com">Joanna Scianna</a>, the Booking Manager, at 312-324-4022<br /><br />Sofitel Chicago Water Tower provides four-star downtown Chicago hotel accommodations &mdash; minutes from the Magnificent Mile, Navy Pier, the Museum of Contemporary Art, Lake Michigan and upscale boutiques. Designed by the French architect Jean-Paul Viguier, this downtown Chicago Illinois hotel is a 32-floor prism of glass, boasting 415 rooms, including 33 luxurious suites. Embrace modern design and rich architectural legacy at one of the best downtown Chicago Illinois hotels.</p>
 			</div>
 			<div style="clear:both;"> </div>
 		</div>
@@ -159,7 +162,7 @@
 			});
 	</script>
 	<script type="text/javascript" charset="utf-8">
-		var end = new Date('27 May 2012 15:00:00'); // set expiry date and time..
+		var end = new Date('27 May 2012 17:00:00 CST'); // set expiry date and time..
 		var _second = 1000;
 		var _minute = _second * 60;
 		var _hour = _minute * 60;
@@ -180,7 +183,7 @@
 		    var minutes = Math.floor( (distance % _hour) / _minute );
 		    var seconds = Math.floor( (distance % _minute) / _second );
 		    if (days > 0) {
-				document.getElementById('countdown').innerHTML = days + ' days until the wedding!';
+				document.getElementById('countdown').innerHTML = days+1 + ' days until the wedding!';
 			}
 			else {if (hours > 0) {
 				document.getElementById('countdown').innerHTML = hours+ 'left until the wedding!';

@@ -42,8 +42,8 @@ h2 {
 }
 
 #countdowndiv {
-	background: url(img/countdown_bg.png) no-repeat 550px 0px;
-	height: 70px;
+	/* background: url(img/countdown_bg.png) no-repeat 550px 0px;
+	height: 70px; */
 }
 
 #topbar {
@@ -179,6 +179,20 @@ h2 {
 	width: 410px;
 }
 
+.box .leftdiv {
+	width: 360px;
+	text-align: left;
+}
+
+.box .box_contet ol {
+	width: 360px;
+	text-align: left;
+}
+
+.box .box_content ol li {
+	width: 360px;
+}
+
 .box_content {
 	width: 860px;
 	margin-top: 40px;
@@ -208,13 +222,14 @@ p {
 	margin-top: 10px;
 }
 
-#ourstory p img {
+#ourstory p img, #accommodations p img {
 	border: 1px solid #220059;
 	margin-bottom: 10px;
 }
 
 #inviteleft {
-	float: left;
+	/* float: left; */
+	margin-left: 210px;
 	width: 440px;
 }
 
@@ -281,8 +296,11 @@ p {
 	color: #220059;
 	padding: 2px;
 	margin: 2px;
+	font-family: 'Rochester', Georgia, serif;
+	font-size: 16px;
 }
 
 #menus li a {
 	color: #220059;
+	font-weight: normal;
 }
