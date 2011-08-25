@@ -23,7 +23,7 @@ a:hover {
 
 h1 {
 	color: #220059;
-	font-family: Georgia, Trebuchet MS, Times New Roman, serif;
+	font-family: 'Alice', Georgia, Trebuchet MS, Times New Roman, serif;
 	font-size: 32px;
 	margin-bottom: 15px;
 	margin-top: 15px;
@@ -227,6 +227,10 @@ p {
 	margin-bottom: 10px;
 }
 
+#accommodations a {
+	color: #93b1bf;
+}
+
 #inviteleft {
 	/* float: left; */
 	margin-left: 210px;
@@ -286,6 +290,10 @@ p {
 	background: url(img/frame_right_bg.png) no-repeat right 10px;
 	height: 250px;
 	width: 79px;
+}
+
+#directions a {
+	font-weight: normal;
 }
 
 #menus li {
