@@ -232,6 +232,10 @@ p {
 	color: #93b1bf;
 }
 
+#invitetop {
+	background: url(img/invite_bg.png) no-repeat bottom;
+}
+
 #inviteleft {
 	/* float: left; */
 	margin-left: 210px;
