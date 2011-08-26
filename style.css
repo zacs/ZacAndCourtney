@@ -69,7 +69,7 @@ h2 {
 	float: right;
 	text-align: center;
 	width: 540px;
-	margin-top: 5px;
+	margin-top: 0px;
 }
 
 #bottombar {
@@ -214,8 +214,9 @@ h2 {
 }	
 
 p .big {
-		font-size: 22px;
-	}
+	font-size: 24px;
+	font-family: 'Alice', Georgia, Trebuchet MS, Times New Roman, serif;
+}
 
 p {
 	margin-bottom: 10px;
@@ -304,7 +305,7 @@ p {
 	color: #220059;
 	padding: 2px;
 	margin: 2px;
-	font-family: 'Rochester', Georgia, serif;
+	font-family: 'Alice', Georgia, Trebuchet MS, Times New Roman, serif;
 	font-size: 16px;
 }
 
