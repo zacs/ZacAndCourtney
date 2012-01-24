@@ -301,6 +301,15 @@ p {
 	font-weight: normal;
 }
 
+#registry ul {
+	text-align: left;
+	margin-left: 30px;
+}
+
+#registry a {
+	color: #93b1bf;
+}
+
 #menus li {
 	list-style-type: none;
 	float: left;
