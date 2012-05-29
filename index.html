@@ -38,7 +38,7 @@
 			<div style="clear:both;"> </div>
 	    </div>
 		<div style="clear:both;"> </div>
-		<div id="countdowndiv"><h2 id="countdown"> </h2></div>
+		<div id="countdowndiv"><h2 id="countdown">The wedding is over and we're hitched! Thanks everyone for celebrating with us!</h2></div>
 		<div style="clear:both;"> </div>
 		<div id="invitation" class="box"><a name="invitation">&nbsp; </a>
 			<div class="return"><a href="#top"><span class="big">&uarr;</span> Return to top</a></div>
@@ -170,36 +170,6 @@
 					hoverPause: true
 				});
 			});
-	</script>
-	<script type="text/javascript" charset="utf-8">
-		var end = new Date('27 May 2012 17:00:00 CST'); // set expiry date and time..
-		var _second = 1000;
-		var _minute = _second * 60;
-		var _hour = _minute * 60;
-		var _day = _hour *24
-		var timer;
-		function showRemaining()
-		{
-		    var now = new Date();
-		    var distance = end - now;
-		    if (distance < 0 ) {
-		       // handle expiry here..
-		       clearInterval( timer ); // stop the timer from continuing ..
-		       // alert('Expired'); // alert a message that the timer has expired..
-		       return; // break out of the function so that we do not update the counters with negative values..
-		    }
-		    var days = Math.floor(distance / _day);
-		    var hours = Math.floor( (distance % _day ) / _hour );
-		    var minutes = Math.floor( (distance % _hour) / _minute );
-		    var seconds = Math.floor( (distance % _minute) / _second );
-		    if (days > 0) {
-				document.getElementById('countdown').innerHTML = days+1 + ' days until the wedding!';
-			}
-			else {if (hours > 0) {
-				document.getElementById('countdown').innerHTML = hours+ 'left until the wedding!';
-			}}
-		}
-		timer = setInterval(showRemaining, 1000);
 	</script>
 	<script type="text/javascript" src="http://include.reinvigorate.net/re_.js"></script>
 	<script type="text/javascript">
